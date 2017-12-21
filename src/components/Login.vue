@@ -9,7 +9,7 @@
     </form>
     <p v-if="getLoginError">{{ getLoginError }}</p>
     <router-link to="/register">register</router-link>
-    <router-link to="/passwordreset">forgot password?</router-link>
+    <router-link to="/resetpassword">forgot password?</router-link>
     <button type="submit" @click.prevent="googleSignIn()">
       Google
     </button>
