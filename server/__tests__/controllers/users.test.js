@@ -4,8 +4,8 @@ import chaiHTTP from 'chai-http';
 import app from '../../server';
 
 
-const should = chai.should();   // eslint-disable-line
-chai.use(chaiHTTP);
+const should = chai.should();   
+chai.use(chaiHTTP);   // eslint-disable-line
 
 
 describe('User Registeration', () => {
